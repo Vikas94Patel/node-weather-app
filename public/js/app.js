@@ -1,16 +1,3 @@
-console.log("Js file from node!");
-
-fetch("http://localhost:3001/weather?address=!").then((response) => {
-  response.json().then((data) => {
-    if (data.error) {
-      console.log(data.error);
-    } else {
-      console.log(data.location);
-      console.log(data.forecast);
-    }
-  });
-});
-
 const weatherForm = document.querySelector("form");
 const searchElement = document.querySelector("input");
 const weatherData1 = document.querySelector("#weather-data1");
