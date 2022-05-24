@@ -15,11 +15,14 @@ const forecast = (latitude, longitude, callback) => {
     } else {
       callback(
         undefined,
-        "Its is currently " +
+        "Observation Time : " +
+          body.current.observation_time +
+          "Temperature : " +
           body.current.temperature +
-          " degrees out. It feel like " +
+          " degrees & It feel like " +
           body.current.feelslike +
-          " degrees out there."
+          " degrees out there. Chances of precipitation : " +
+          body.current.precip
       );
     }
   });
