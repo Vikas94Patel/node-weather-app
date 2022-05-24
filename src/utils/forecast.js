@@ -26,10 +26,3 @@ const forecast = (latitude, longitude, callback) => {
 };
 
 module.exports = forecast;
-
-// const url =
-//   "http://api.weatherstack.com/current?access_key=6d5d45c623ab79e8c7eaee0f334d0c4c&query=indore";
-
-// request({ url: url, json: true }, (error, response) => {
-//
-// });
