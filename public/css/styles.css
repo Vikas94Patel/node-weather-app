@@ -1,6 +1,6 @@
 body {
-  text-align: center;
   background: whitesmoke;
+  color: darkcyan;
   font-family: Arial, Helvetica, sans-serif;
   max-width: 650px;
   margin: 0 auto;
@@ -15,9 +15,9 @@ body {
 }
 
 header {
-  background: palevioletred;
-  color: darkgray;
-  border: 1px solid grey;
+  text-align: center;
+  background: darkcyan;
+  color: #fff;
   border-radius: 8px;
   margin-top: 8px;
   margin-bottom: 48px;
@@ -25,9 +25,9 @@ header {
 }
 
 footer {
-  background: palevioletred;
-  color: darkgray;
-  border: 1px solid grey;
+  text-align: center;
+  background: darkcyan;
+  color: #fff;
   border-radius: 8px;
   margin-top: 16px;
   padding: 8px;
@@ -35,7 +35,6 @@ footer {
 
 h1 {
   font-size: 64px;
-  color: darkgrey;
   margin-bottom: 16pxs;
 }
 
@@ -51,15 +50,19 @@ img {
 }
 
 input {
-  border: 1px solid #cccccc;
+  border: 1px solid darkcyan;
   padding: 8px;
 }
 
 button {
   cursor: pointer;
-  background-color: palevioletred;
-  border: 1px solid palevioletred;
-  color: darkgray;
+  background-color: darkcyan;
+  color: white;
+  border: 1px solid rgb(28, 166, 166);
   padding: 8px;
   border-radius: 2px;
+}
+
+button:hover {
+  background-color: rgb(28, 166, 166);
 }
